@@ -5,7 +5,7 @@ from func.Calculations import *
 from func.Validation import *
 
 if len(sys.argv) != 5:
-	print("Format: python RidgeRegression.py <TrainFile> <TestFile> <Lambda> <ValidationSize>")
+	print("Format: python RidgeRegressionWithValidation.py <TrainFile> <TestFile> <Lambda> <ValidationSize>")
 	exit(0)
 
 # Read Data
